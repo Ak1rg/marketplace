@@ -31,7 +31,7 @@ export const Card = ({
 
     return (
         <div className={styles.card} onClick={goToTheProduct}>
-            <Image height={300} width={260} className={styles.img} src='/book.png' alt='image for card'/>
+            <Image height={400} width={320} className={styles.img} src='/book.png' alt='image for card'/>
             <p className={styles.price}>{price} с</p>
             <p className={styles.name}>{name}</p>
             <div className={styles.rating}>
