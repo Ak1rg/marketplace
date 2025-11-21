@@ -1,0 +1,44 @@
+.container{
+    background-color: #f5f7fa;
+}
+
+.section{
+    max-width: var(--container);
+    margin: 0px auto;
+    padding: 40px 0px;
+}
+
+.title{
+    display: inline-flex;
+    
+    &_text{
+        font-size: 40px;
+    }
+
+    &_value{
+        font-size: 20px;
+        color: gray;
+    }
+}
+
+.cart{
+    width: 100%;
+    display: inline-flex;
+}
+
+.products{
+    padding: 20px;
+    background-color:white ;
+    border-radius: 35px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pay{
+    width: 100%;
+    max-width: 480px;
+    margin-left: 20px;
+}
