@@ -1,0 +1,55 @@
+.card{
+    max-width: 320px;
+    overflow: hidden;
+}
+
+.img{
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.price {
+    font-size: 26px;
+    padding-bottom: 4px;
+}
+
+.name{
+    cursor: pointer;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden; 
+
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .bunch{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .number{
+        font-weight: 500;
+    }
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--main-blue);
+    color: white;
+    border: 1px solid var(--main-blue);
+    border-radius: 6px;
+    padding: 4px 0px;
+    font-size: 18px;
+}

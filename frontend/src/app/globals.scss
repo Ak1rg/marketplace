@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-nunito-sans);
+}
+
+:root {
+  --background: #ffffff;
+  --main-blue:#005BFF;
+  --container:1400px;
+  --btn-background:#f5f7fa;
+  --btn-dark-background:#dddfe2;
+}
+
+
+[data-theme="dark"] {
+  --background: #000000;
+  --main-blue:#005BFF;
+}
+
+
+body{
+  background-color:var(--background) ;
+}
+
+

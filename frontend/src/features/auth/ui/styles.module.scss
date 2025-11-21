@@ -1,0 +1,67 @@
+.section{
+    max-width: var(--container);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.input{
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid 2px rgb(160, 160, 160);
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.input:hover{
+    border: solid 2px rgb(62, 62, 62);
+}
+
+.input:focus{
+    border: solid 2px var(--main-blue);
+    outline: none;
+}
+
+.field_error{
+    font-size: 18px;
+    min-height: 24px;
+    color: rgb(224, 0, 0);
+}
+
+.submit{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--main-blue);
+    border: none;
+    padding: 16px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.signin{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.signin:hover{
+    color: var(--main-blue);
+}
